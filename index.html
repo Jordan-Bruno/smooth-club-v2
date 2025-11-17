@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Smooth Club | Shave Gel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Top navigation bar -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">Smooth <span>Club</span></div>
+
+            <nav class="main-nav">
+                <a href="#">Get started</a>
+                <a href="#">Shop</a>
+                <a href="#">Stories</a>
+                <a href="#">Gift</a>
+                <a href="#">Account</a>
+            </nav>
+
+            <button class="icon-button" aria-label="Basket">
+                🛒
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Breadcrumb trail -->
+        <nav class="breadcrumb container" aria-label="Breadcrumb">
+            <a href="#">Home</a>
+            <span>›</span>
+            <a href="#">Shop</a>
+            <span>›</span>
+            <a href="#">Shave</a>
+            <span>›</span>
+            <span aria-current="page">Shave Gel</span>
+        </nav>
+
+        <!-- Main product layout -->
+        <section class="product-page container">
+            <!-- Left side: product image -->
+            <div class="product-media">
+                <div class="product-image-frame">
+                    <img src="./images/shave-gel.png" alt="Smooth Club shave gel in a dark blue can"
+                        class="product-image" />
+                </div>
+
+                <div class="award-badge">
+                    <span>Grooming Award</span>
+                    <span class="award-year">2024</span>
+                </div>
+            </div>
+
+            <!-- Right side: product details and purchase box -->
+            <div class="product-details">
+                <header class="product-header">
+                    <h1>Shave Gel</h1>
+                    <p class="product-size">200 ml</p>
+                    <p class="product-price">£7.00</p>
+                </header>
+
+                <!-- Purchase options -->
+                <form class="purchase-box">
+                    <fieldset class="purchase-options">
+                        <legend class="sr-only">Purchase options</legend>
+
+                        <label class="option-card">
+                            <input type="radio" name="purchase-type" value="subscribe" />
+                            <div class="option-content">
+                                <span class="option-title">Subscribe</span>
+                                <span class="option-subtitle">
+                                    Save 10% and get free delivery.
+                                </span>
+                            </div>
+                        </label>
+
+                        <label class="option-card option-card--selected">
+                            <input type="radio" name="purchase-type" value="one-time" checked />
+                            <div class="option-content">
+                                <span class="option-title">One-time purchase</span>
+                                <span class="option-subtitle">
+                                    Buy once, ships after checkout.
+                                </span>
+                            </div>
+                        </label>
+                    </fieldset>
+
+                    <!-- Quantity and add to cart row -->
+                    <div class="purchase-actions">
+                        <label class="quantity">
+                            <span class="quantity-label">Quantity</span>
+                            <div class="quantity-controls">
+                                <!-- Buttons do not change the number yet; this is a static demo -->
+                                <button type="button" class="quantity-button" aria-label="Decrease quantity">
+                                    −
+                                </button>
+                                <input type="number" min="1" value="1" class="quantity-input" aria-label="Quantity" />
+                                <button type="button" class="quantity-button" aria-label="Increase quantity">
+                                    +
+                                </button>
+                            </div>
+                        </label>
+
+                        <button type="submit" class="primary-button">
+                            Add
+                        </button>
+                    </div>
+                </form>
+
+                <!-- About section -->
+                <section class="product-about">
+                    <h2>About</h2>
+                    <p>
+                        Shaving drying you out? Smooth Club Shave Gel gives a rich,
+                        low-foam lather that helps your blade glide with less pull.
+                        It is made for dry and sensitive skin and rinses off cleanly.
+                    </p>
+
+                    <ul class="feature-list">
+                        <li>Contains shea butter and aloe for comfort.</li>
+                        <li>Designed for dry and sensitive skin.</li>
+                        <li>Fresh, light scent that does not linger.</li>
+                        <li>Vegan and not tested on animals.</li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2025 Smooth Club. Demo product page for teaching use by <a
+                    href="https://github.com/jordan-bruno">Jordan Bruno</a>.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
